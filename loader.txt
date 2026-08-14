@@ -1,0 +1,11 @@
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Notification",
+        Text = "Thanks for using my script!",
+        Duration = 3
+    })
+end)
+
+task.wait(3)
+
+loadstring(game:HttpGet("https://flowauth.net/v1/loaders/3a60e70c633f9a99ee1f214b43cf894e.lua"))()
